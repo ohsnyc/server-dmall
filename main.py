@@ -6,7 +6,7 @@ import datetime, subprocess
 import colorama
 import time
 import os
-client_id = '862840967707230218'
+client_id = '880164532809519134'
 RPC = Presence(client_id)
 RPC.connect()
 RPC.update(state='MassDmer', details='made by $Y#8300', large_image='dsfdsfdf', small_image = "dsfdsfdf", start=time.time(), large_text="v1.0.0")
@@ -84,6 +84,6 @@ class Client(discord.Client):
         return super().run(token, bot=False)
 
 
-token = "TOKEN HERE"
+token = "ODgwMTY0NTMyODA5NTE5MTM0.YaPTSQ.t7nd7rZ11tZPPTrMgnvAsvuR1Cs"
 client = Client(intents=discord.Intents.all())
 client.run(token)
